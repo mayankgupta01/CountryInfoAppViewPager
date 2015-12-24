@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- To show the add item as an action bar just add app:showAsAction = always-->
+    <!--<item android:title="Add" android:id="@+id/addAction" app:showAsAction="always"></item>-->
+    <!-- If the button has low priority make it as ifRoom, if it has room then it will add otherwise not-->
+    <item
+        android:title="Add"
+        android:id="@+id/addAction"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"></item>
+
+</menu>

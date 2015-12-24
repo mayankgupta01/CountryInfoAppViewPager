@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--In material design - action bar has been replaced by tool bar. Action bar is always on top. Tool bar has more flexibility-->
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsAction"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_preferences"></item>
+</menu>
